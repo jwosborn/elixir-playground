@@ -19,6 +19,8 @@
                         'Elixir.DiscussWeb.Router',
                         'Elixir.DiscussWeb.Router.Helpers',
                         'Elixir.DiscussWeb.Telemetry',
+                        'Elixir.DiscussWeb.TopicController',
+                        'Elixir.DiscussWeb.TopicView',
                         'Elixir.DiscussWeb.UserSocket']},
               {registered,[]},
               {vsn,"0.1.0"},
