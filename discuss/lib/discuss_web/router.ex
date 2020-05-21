@@ -17,6 +17,7 @@ defmodule DiscussWeb.Router do
     pipe_through :browser
 
     resources "/", TopicController
+    post "/:id", TopicController, :delete
   end
 
   # Other scopes may use custom stacks.
